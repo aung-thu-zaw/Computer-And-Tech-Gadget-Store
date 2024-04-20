@@ -18,10 +18,14 @@
         rel="stylesheet" />
 
     @vite(['resources/css/app.css','resources/js/app.js'])
+
+    @livewireStyles
 </head>
 
 <body class="font-poppins">
     <h1 class="text-center text-lg font-bold text-green-600">Hello World From Home Page</h1>
+
+    @livewireScripts
 </body>
 
 </html>

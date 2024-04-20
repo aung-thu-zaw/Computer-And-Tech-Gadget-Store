@@ -1,10 +1,9 @@
 module.exports = {
     content: [
-        "./resources/**/*.blade.php",
-        "./resources/**/*.js",
-        "./resources/**/*.vue",
-        "./node_modules/flowbite/**/*.js",
-    ],
+		"./resources/**/*.blade.php",
+		 "./resources/**/*.js",
+		 "./vendor/robsontenorio/mary/src/View/Components/**/*.php"
+	],
     theme: {
         extend: {
             fontFamily: {
@@ -19,5 +18,7 @@ module.exports = {
             },
         },
     },
-    plugins: [require("flowbite/plugin")],
+    plugins: [
+		require("daisyui")
+	],
 };
