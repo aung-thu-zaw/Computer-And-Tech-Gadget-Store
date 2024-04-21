@@ -16,15 +16,15 @@
         <div class="hidden lg:inline-block">
             <x-menu activate-by-route class="menu-horizontal font-bold text-sm">
                 <x-menu-item title="Home" link="/"
-                    class="bg-transparent outline-none border-none hover:bg-transparent hover:text-accent transition-all" />
+                    class="bg-transparent outline-none border-none {{ request()->is('/') ? 'text-accent hover:text-red-600' : ' hover:text-white' }} hover:bg-transparent transition-all" />
                 <x-menu-item title="Warranty" link="/"
-                    class="bg-transparent outline-none border-none hover:bg-transparent hover:text-accent transition-all" />
+                    class="bg-transparent outline-none border-none {{ request()->is('warranty') ? 'text-accent hover:text-red-600' : ' hover:text-white' }} hover:bg-transparent transition-all" />
                 <x-menu-item title="Questions & Answers" link="/"
-                    class="bg-transparent outline-none border-none hover:bg-transparent hover:text-accent transition-all" />
+                    class="bg-transparent outline-none border-none {{ request()->is('questions-and-answers') ? 'text-accent hover:text-red-600' : ' hover:text-white' }} hover:bg-transparent transition-all" />
                 <x-menu-item title="Blog" link="/"
-                    class="bg-transparent outline-none border-none hover:bg-transparent hover:text-accent transition-all" />
-                <x-menu-item title="Contact" link="/"
-                    class="bg-transparent outline-none border-none hover:bg-transparent hover:text-accent transition-all" />
+                    class="bg-transparent outline-none border-none {{ request()->is('blog') ? 'text-accent hover:text-red-600' : ' hover:text-white' }} hover:bg-transparent transition-all" />
+                <x-menu-item title="Contact" link="{{ route('contact-us') }}"
+                    class="bg-transparent outline-none border-none {{ request()->is('contact-us') ? 'text-accent hover:text-red-600' : ' hover:text-white' }} hover:bg-transparent transition-all" />
             </x-menu>
         </div>
 

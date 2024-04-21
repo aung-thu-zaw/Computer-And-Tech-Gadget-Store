@@ -16,7 +16,4 @@
     <x-small-banner-section />
 
     <x-latest-blog-section />
-
-    <x-footer-section />
-
 </div>

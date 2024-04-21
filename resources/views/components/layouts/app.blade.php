@@ -42,8 +42,9 @@
         </x-slot:content>
     </x-main>
 
-    {{--
-    <x-toast /> --}}
+    <x-footer-section />
+
+    <x-toast />
 </body>
 
 </html>
