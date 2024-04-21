@@ -25,8 +25,6 @@
                         <th scope="col" class="px-6 py-4">Image</th>
                         <th scope="col" class="px-6 py-4">Product</th>
                         <th scope="col" class="px-6 py-4">Price</th>
-                        <th scope="col" class="px-6 py-4">Qty</th>
-                        <th scope="col" class="px-6 py-4">Total</th>
                         <th scope="col" class="px-6 py-4">Actions</th>
                     </tr>
                 </thead>
@@ -37,12 +35,28 @@
                             <img src="https://my-store.msi.com/cdn/shop/files/GE78HX14VI_1_1200x1200.png?v=1705046544"
                                 alt="product-image" class="w-32">
                         </td>
-                        <td class="px-6 py-2">MSI 2020 Laptop 36 Inches</td>
-                        <td class="px-6 py-2">$ 1200</td>
                         <td class="px-6 py-2">
-                            <x-quantity-input />
+                            <div class="space-y-1.5">
+                                <p>MSI 2020 Laptop 36 Inches</p>
+                                <p class="text-xs text-green-600">3 Item(s) left</p>
+
+                            </div>
                         </td>
-                        <td class="px-6 py-2">$ 2400</td>
+                        <td class="px-6 py-2">
+                            <div>
+                                <p>$ 1200</p>
+                                <div class="flex items-center  space-x-3  text-xs text-accent">
+
+                                    <span class="line-through">
+                                        $ 1500
+                                    </span>
+
+
+                                    <x-badge value="53 % OFF" class="badge-error badge-outline text-[10px]" />
+                                </div>
+                            </div>
+                        </td>
+
                         <td class="px-6 py-2">
                             <div class="flex items-center justify-start space-x-3">
 
@@ -69,12 +83,28 @@
                             <img src="https://my-store.msi.com/cdn/shop/files/GE78HX14VI_1_1200x1200.png?v=1705046544"
                                 alt="product-image" class="w-32">
                         </td>
-                        <td class="px-6 py-2">MSI 2020 Laptop 36 Inches</td>
-                        <td class="px-6 py-2">$ 1200</td>
                         <td class="px-6 py-2">
-                            <x-quantity-input />
+                            <div class="space-y-1.5">
+                                <p>MSI 2020 Laptop 36 Inches</p>
+                                <p class="text-xs font-medium text-neutral-500">CPU core i5, Ram 8 GB, Storage 1 Tb</p>
+                                <p class="text-xs text-green-600">3 Item(s) left</p>
+                            </div>
                         </td>
-                        <td class="px-6 py-2">$ 2400</td>
+                        <td class="px-6 py-2">
+                            <div>
+                                <p>$ 1200</p>
+                                <div class="flex items-center  space-x-3  text-xs text-accent">
+
+                                    <span class="line-through">
+                                        $ 1500
+                                    </span>
+
+
+                                    <x-badge value="53 % OFF" class="badge-error badge-outline text-[10px]" />
+                                </div>
+                            </div>
+                        </td>
+
                         <td class="px-6 py-2">
                             <div class="flex items-center justify-start space-x-3">
 
@@ -101,12 +131,28 @@
                             <img src="https://my-store.msi.com/cdn/shop/files/GE78HX14VI_1_1200x1200.png?v=1705046544"
                                 alt="product-image" class="w-32">
                         </td>
-                        <td class="px-6 py-2">MSI 2020 Laptop 36 Inches</td>
-                        <td class="px-6 py-2">$ 1200</td>
                         <td class="px-6 py-2">
-                            <x-quantity-input />
+                            <div class="space-y-1.5">
+                                <p>MSI 2020 Laptop 36 Inches</p>
+                                <p class="text-xs font-medium text-neutral-500">CPU core i5, Ram 8 GB, Storage 1 Tb</p>
+                                <p class="text-xs text-green-600">3 Item(s) left</p>
+                            </div>
                         </td>
-                        <td class="px-6 py-2">$ 2400</td>
+                        <td class="px-6 py-2">
+                            <div>
+                                <p>$ 1200</p>
+                                <div class="flex items-center  space-x-3  text-xs text-accent">
+
+                                    <span class="line-through">
+                                        $ 1500
+                                    </span>
+
+
+                                    <x-badge value="53 % OFF" class="badge-error badge-outline text-[10px]" />
+                                </div>
+                            </div>
+                        </td>
+
                         <td class="px-6 py-2">
                             <div class="flex items-center justify-start space-x-3">
 
@@ -133,12 +179,28 @@
                             <img src="https://my-store.msi.com/cdn/shop/files/GE78HX14VI_1_1200x1200.png?v=1705046544"
                                 alt="product-image" class="w-32">
                         </td>
-                        <td class="px-6 py-2">MSI 2020 Laptop 36 Inches</td>
-                        <td class="px-6 py-2">$ 1200</td>
                         <td class="px-6 py-2">
-                            <x-quantity-input />
+                            <div class="space-y-1.5">
+                                <p>MSI 2020 Laptop 36 Inches</p>
+                                <p class="text-xs font-medium text-neutral-500">CPU core i5, Ram 8 GB, Storage 1 Tb</p>
+                                <p class="text-xs text-green-600">3 Item(s) left</p>
+                            </div>
                         </td>
-                        <td class="px-6 py-2">$ 2400</td>
+                        <td class="px-6 py-2">
+                            <div>
+                                <p>$ 1200</p>
+                                <div class="flex items-center  space-x-3  text-xs text-accent">
+
+                                    <span class="line-through">
+                                        $ 1500
+                                    </span>
+
+
+                                    <x-badge value="53 % OFF" class="badge-error badge-outline text-[10px]" />
+                                </div>
+                            </div>
+                        </td>
+
                         <td class="px-6 py-2">
                             <div class="flex items-center justify-start space-x-3">
 
