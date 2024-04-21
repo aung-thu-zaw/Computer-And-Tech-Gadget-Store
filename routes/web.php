@@ -2,6 +2,7 @@
 
 use App\Livewire\Blogs\Index;
 use App\Livewire\Blogs\Show;
+use App\Livewire\Checkout;
 use App\Livewire\Contact;
 use App\Livewire\Home;
 use App\Livewire\ShoppingCart;
@@ -26,5 +27,6 @@ Route::get('/blogs/{blog}', Show::class)->name('blogs.show');
 
 Route::get('/my-wishlists', Wishlist::class)->name('wishlists');
 Route::get('/shopping-cart', ShoppingCart::class)->name('shopping-cart');
+Route::get('/checkout', Checkout::class)->name('checkout');
 
 Route::get('/contact-us', Contact::class)->name('contact-us');

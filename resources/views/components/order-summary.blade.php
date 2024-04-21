@@ -1,5 +1,5 @@
 <div class="border border-neutral-700 rounded-md p-5 bg-primaryBackground">
-    <h2 class="text-center mb-10 font-bold text-2xl ">
+    <h2 class="text-center mb-6 font-bold text-xl ">
         Order Summary
     </h2>
     <ul class="space-y-5 text-sm font-semibold mb-5">
@@ -44,18 +44,20 @@
     </ul>
 
     <div class="space-x-3 flex items-center justify-between">
-        <button type="button"
-            class="px-4 py-3.5 inline-block text-sm w-full text-center font-semibold  bg-transparent border border-neutral-700 shadow-sm  rounded-md duration-200">
+        <a href="{{ route('home') }}"
+            class="px-4 py-3.5 inline-block text-sm w-full text-center font-semibold  bg-transparent border border-neutral-700 shadow-sm  rounded-md duration-200 space-x-1.5">
             <i class="fa-solid fa-home"></i>
-            Home
-        </button>
-        <button type="button"
+            <span>
+                Home
+            </span>
+        </a>
+        <a href="{{ route('checkout') }}"
             class="px-4 py-3.5 inline-block text-sm w-full text-center font-semibold text-white bg-accent shadow-sm  rounded-md duration-200 space-x-1.5">
             <i class="fa-solid fa-shopping-cart"></i>
             <span>
                 Checkout
             </span>
             <i class="fa-solid fa-arrow-right"></i>
-        </button>
+        </a>
     </div>
 </div>
