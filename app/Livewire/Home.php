@@ -6,7 +6,7 @@ use Illuminate\Support\Collection;
 use Livewire\Component;
 use Mary\Traits\Toast;
 
-class Welcome extends Component
+class Home extends Component
 {
     use Toast;
 
@@ -55,13 +55,13 @@ class Welcome extends Component
         ])
             ->sortBy([[...array_values($this->sortBy)]])
             ->when($this->search, function (Collection $collection) {
-                return $collection->filter(fn(array $item) => str($item['name'])->contains($this->search, true));
+                return $collection->filter(fn (array $item) => str($item['name'])->contains($this->search, true));
             });
     }
 
     public function render()
     {
-        return view('livewire.welcome', [
+        return view('livewire.home', [
             'users' => $this->users(),
             'headers' => $this->headers()
         ]);
