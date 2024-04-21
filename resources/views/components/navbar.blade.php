@@ -36,9 +36,9 @@
             </x-button>
 
             <x-button class="relative bg-transparent hover:bg-transparent text-primaryText border-none">
-                <span class="text-md hover:text-accent transition-all">
+                <a href="{{ route('wishlists') }}" class="text-md hover:text-white transition-all">
                     <i class="fa-solid fa-shopping-cart"></i>
-                </span>
+                </a>
                 <span
                     class="w-4 h-4 flex items-center justify-center bg-accent rounded-full text-[12px] absolute top-1 right-1">
                     5
@@ -46,7 +46,7 @@
             </x-button>
 
             <x-button class="relative hidden md:block bg-transparent hover:bg-transparent text-primaryText border-none">
-                <span class="text-md hover:text-accent transition-all">
+                <span class="text-md hover:text-white transition-all">
                     <i class="fa-solid fa-heart"></i>
                 </span>
                 <span

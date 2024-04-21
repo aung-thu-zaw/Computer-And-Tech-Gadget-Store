@@ -31,15 +31,7 @@
 
         <div
             class="absolute z-10 invisible -bottom-2 opacity-0 w-full  group-hover:visible group-hover:opacity-100 group-hover:bottom-3.5 duration-200 transition-all flex items-center justify-center">
-            <button
-                class="flex items-center overflow-hidden text-sm font-bold w-40 h-10 rounded-full space-x-3 border border-accent bg-accent text-white">
-                <span class="flex items-center justify-center rounded-full h-full w-10 bg-white text-black">
-                    <i class="fa-solid fa-shopping-cart"></i>
-                </span>
-                <span>
-                    Add To Cart
-                </span>
-            </button>
+            <x-add-to-cart-button />
         </div>
     </div>
     <div class=" bg-[#2b2b2b]">
