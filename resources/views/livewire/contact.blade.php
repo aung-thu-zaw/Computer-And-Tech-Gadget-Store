@@ -2,7 +2,7 @@
     <div class="container mx-auto space-y-10">
 
         {{-- Breadcrumb --}}
-        <div class="text-sm font-bold breadcrumbs">
+        <div class="text-sm font-bold breadcrumbs my-5">
             <ul>
                 <li>
                     <a class="hover:text-accent">Home</a>

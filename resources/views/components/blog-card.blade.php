@@ -1,14 +1,17 @@
 <div class="w-full group">
     <div class="w-full mb-10">
         <div class="mb-8 overflow-hidden rounded group-hover:scale-105 duration-200 transition-all">
-            <img src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-01.jpg" alt="image"
-                class="w-full" />
+            <img src="https://media.istockphoto.com/id/1335669510/vector/vector-isometric-devices-set.jpg?s=612x612&w=0&k=20&c=DBjsHSWGxGDkKrWTFus2CvvCDUHhksziuj8cN4FZKwo="
+                alt="image" class="w-full" />
         </div>
         <div>
-            <span
-                class="inline-block px-4 py-1 mb-5 text-xs font-semibold leading-loose text-center text-white rounded bg-accent">
-                Digital Marketing
-            </span>
+            <div
+                class="inline-block px-4 py-1 mb-5 text-xs font-semibold leading-loose text-center text-white rounded bg-accent space-x-1">
+                <span> <i class="fa-solid fa-calendar-days"></i></span>
+                <span>
+                    12-September-2024
+                </span>
+            </div>
             <h3 class="inline-block mb-4 text-lg font-semibold  sm:text-2xl lg:text-xl xl:text-2xl">
                 Meet AutoManage, the best AI management tools
             </h3>
