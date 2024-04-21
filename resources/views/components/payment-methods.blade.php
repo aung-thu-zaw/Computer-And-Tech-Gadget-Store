@@ -65,20 +65,19 @@
     </div>
 
     <div class="space-x-3 flex items-center justify-between">
-        <a href="{{ route('home') }}"
+        <a href="{{ route('home') }}" wire:navigate
             class="px-4 py-3.5 inline-block text-sm w-full text-center font-semibold  bg-transparent border border-neutral-700 shadow-sm  rounded-md duration-200 space-x-1.5">
             <i class="fa-solid fa-home"></i>
             <span>
                 Home
             </span>
         </a>
-        <a href="{{ route('checkout') }}"
+        <a href="{{ route('checkout') }}" wire:navigate
             class="px-4 py-3.5 inline-block text-sm w-full text-center font-semibold text-white bg-accent shadow-sm  rounded-md duration-200 space-x-1.5">
             <i class="fa-solid fa-boxes-packing"></i>
             <span>
                 Place Order
             </span>
-
         </a>
     </div>
 </div>

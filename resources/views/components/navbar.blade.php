@@ -7,7 +7,9 @@
 
         {{-- Brand --}}
         <div class="font-extrabold text-xl text-white">
-            <img src="{{ asset('images/logo-color.png') }}" alt="header-logo" class="h-6 object-contain">
+            <a href="{{ route('home') }}" wire:navigate>
+                <img src="{{ asset('images/logo-color.png') }}" alt="header-logo" class="h-6 object-contain">
+            </a>
         </div>
     </x-slot:brand>
 
@@ -36,7 +38,7 @@
             </x-button>
 
             <x-button class="relative bg-transparent hover:bg-transparent text-primaryText border-none">
-                <a href="{{ route('shopping-cart') }}" class="text-md hover:text-white transition-all">
+                <a href="{{ route('shopping-cart') }}" wire:navigate class="text-md hover:text-white transition-all">
                     <i class="fa-solid fa-shopping-cart"></i>
                 </a>
                 <span
@@ -46,7 +48,7 @@
             </x-button>
 
             <x-button class="relative hidden md:block bg-transparent hover:bg-transparent text-primaryText border-none">
-                <a href="{{ route('wishlists') }}" class="text-md hover:text-white transition-all">
+                <a href="{{ route('wishlists') }}" wire:navigate class="text-md hover:text-white transition-all">
                     <i class="fa-solid fa-heart"></i>
                 </a>
                 <span

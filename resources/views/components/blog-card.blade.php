@@ -20,7 +20,8 @@
                 temporibus voluptatem adipisci debitis? Exercitationem, cumque?
             </p>
 
-            <a href="#" class=" hover:text-accent transition-all space-x-1.5 text-sm font-semibold text-white">
+            <a href="#" wire:navigate
+                class=" hover:text-accent transition-all space-x-1.5 text-sm font-semibold text-white">
                 <span>
                     Read More
                 </span>

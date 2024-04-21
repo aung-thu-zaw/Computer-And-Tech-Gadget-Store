@@ -39,7 +39,8 @@
 
             <p class="text-sm font-semibold">Laptop</p>
 
-            <a href="#" class="text-md font-extrabold line-clamp-2 hover:text-accent transition-all">MSI 365
+            <a href="#" wire:navigate class="text-md font-extrabold line-clamp-2 hover:text-accent transition-all">MSI
+                365
                 Gaming
                 Laptop 32 Inches</a>
         </div>
