@@ -17,15 +17,11 @@
             class="absolute z-10 invisible top-3 right-0  w-full   group-hover:visible group-hover:opacity-100 group-hover:right-3.5 duration-200 transition-all flex flex-col items-end justify-center space-y-3">
 
             <div class="tooltip  tooltip-left" data-tip="Add To Wishlist">
-                <button class="w-8 h-8 text-xs rounded-full border border-neutral-500">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
+                <x-add-to-wishlist-button />
             </div>
 
             <div class="tooltip  tooltip-left" data-tip="Compare Product">
-                <button class="w-8 h-8 text-xs rounded-full border border-neutral-500">
-                    <i class="fa-solid fa-balance-scale"></i>
-                </button>
+                <x-compare-product-button />
             </div>
         </div>
 

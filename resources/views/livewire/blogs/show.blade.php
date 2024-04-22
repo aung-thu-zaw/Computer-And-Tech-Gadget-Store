@@ -112,27 +112,7 @@
                     </div>
                 </div>
 
-                <div class="flex items-center">
-                    <span class="font-bold mr-3">
-                        <i class="fa-solid fa-share-nodes"></i> Share :
-                    </span>
-
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-facebook mr-3 text-lg text-blue-600"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-twitter mr-3 text-lg text-sky-600"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-telegram mr-3 text-lg text-blue-500"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-whatsapp mr-3 text-lg text-emerald-600"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-solid fa-link mr-3 text-sm text-white"></i>
-                    </a>
-                </div>
+                <x-social-share />
             </div>
         </div>
 

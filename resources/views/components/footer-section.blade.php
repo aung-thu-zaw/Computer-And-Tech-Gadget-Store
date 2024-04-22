@@ -186,7 +186,7 @@
             <!-- End Col -->
         </div>
         <!-- End Grid -->
-        <div class=" mt-10 border-t border-neutral-600 w-[500px] mx-auto py-5 pb-3">
+        <div class="mt-10 border-t border-neutral-600 md:w-[500px] mx-auto py-5 pb-3">
             <p class="text-sm text-white w-full font-bold text-center">© Copyright, All Rights Reserved by Aung Thu Zaw
             </p>
         </div>
